@@ -36,4 +36,6 @@ nosetests.xml
 
 # backups
 *~
-*.pyc
+*.png
+*.svg
+*.csv
