@@ -7,10 +7,6 @@ import random
 from grass.pygrass.vector.geometry import Point
 from grass.pygrass.gis.region import Region
 
-# instantiate a constant
-NPNTS = 10
-
-
 # define a function to produce random points
 def get_random_points(num):
     # inside current GRASS' region of course

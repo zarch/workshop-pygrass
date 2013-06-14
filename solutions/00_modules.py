@@ -1,4 +1,12 @@
 #
+# Exercise 1
+#
+g.region(rast='elevation')
+v.to_rast(input='streets', type='line', output='streets', use='cat', overwrite=True)
+r.mapcalc(expression="dist_cost=10./cos(slope)", overwrite=True)
+r.cost(input='dist_cost', output='distance_from_streets', outdir='direction', start_rast='streets', overwrite=True, flags=['k'])
+
+#
 # Exercise 2
 #
 from grass.pygrass.modules import general as g
