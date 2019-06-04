@@ -13,3 +13,14 @@ Launch GRASS GIS 7 using the demolocation *nc_basic_spm_grass7* downloadable fro
 Now move inside the direcotry of pygrass workshop and launch *ipython notebook --pylab inline*.
 
 Enjoy the tutorial!!
+
+Authors
+=========
+
+* Pietro Zambelli (original author)
+* Luca Delucchi
+
+License
+=========
+
+This material is released under Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/
